@@ -10,5 +10,5 @@ registry.iml
 order/target/
 order.iml
 
-entity/target/
+entity/target
 entity/entity.iml

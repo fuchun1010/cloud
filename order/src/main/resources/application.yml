@@ -2,7 +2,29 @@ server:
   port: 18081
   compression:
     enabled: true
+  shutdown: graceful
 
 logging:
   level:
     org.springframework.web: trace
+
+spring:
+  application:
+    name: ms-order-service
+  cloud:
+    nacos:
+      discovery:
+        ip: 127.0.0.1
+        server-addr: 127.0.0.1:8848
+        namespace: d0790988-4f03-460c-9866-37308e7fbeda
+        group: test
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
