@@ -1,7 +1,7 @@
 package com.tank.order.ctrl;
 
-import com.tank.order.entity.req.OrderCreationReq;
-import com.tank.order.entity.req.OrderCreationRes;
+import com.tank.entity.order.req.OrderCreationReq;
+import com.tank.entity.order.res.OrderCreationRes;
 import com.tank.order.service.order.OrderCreation;
 import lombok.NonNull;
 import lombok.val;

@@ -1,6 +1,6 @@
 package com.tank.order.service.order;
 
-import com.tank.order.entity.order.Order;
+import com.tank.entity.order.Order;
 import lombok.NonNull;
 
 /**

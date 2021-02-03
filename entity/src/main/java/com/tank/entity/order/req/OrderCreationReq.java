@@ -1,6 +1,6 @@
-package com.tank.order.entity.req;
+package com.tank.entity.order.req;
 
-import com.tank.order.entity.order.Order;
+import com.tank.entity.order.Order;
 import lombok.Getter;
 import lombok.Setter;
 

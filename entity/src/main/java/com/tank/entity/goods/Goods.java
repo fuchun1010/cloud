@@ -1,4 +1,4 @@
-package com.tank.order.entity.order;
+package com.tank.entity.goods;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -6,6 +6,7 @@ import lombok.Setter;
 import lombok.val;
 
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
 import java.beans.Transient;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -28,8 +29,10 @@ public class Goods {
 
   private Long id;
 
+  @NotEmpty(message = "sku不允许是空")
   private String sku;
 
+  @NotEmpty(message = "spu不允许是空")
   private String spu;
 
   private String name;

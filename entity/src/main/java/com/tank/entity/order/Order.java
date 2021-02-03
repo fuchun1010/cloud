@@ -1,6 +1,7 @@
-package com.tank.order.entity.order;
+package com.tank.entity.order;
 
 import com.google.common.collect.Sets;
+import com.tank.entity.goods.Goods;
 import lombok.Getter;
 import lombok.Setter;
 
