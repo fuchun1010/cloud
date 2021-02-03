@@ -1,6 +1,6 @@
-package com.tank.entity.req;
+package com.tank.order.entity.req;
 
-import com.tank.entity.order.Order;
+import com.tank.order.entity.order.Order;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,7 +10,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class OrderCreationReq {
-
-
+  
   private Order order;
 }

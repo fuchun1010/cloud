@@ -1,4 +1,4 @@
-package com.tank.entity.order;
+package com.tank.order.entity.order;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.tank.entity.req;
+package com.tank.order.entity.req;
 
 import lombok.Getter;
 import lombok.Setter;

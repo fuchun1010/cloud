@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.tank</groupId>
     <artifactId>cloud</artifactId>
@@ -25,6 +26,7 @@
         <lombok.version>1.18.12</lombok.version>
         <vavr.version>0.10.2</vavr.version>
         <guava.version>23.0</guava.version>
+        <hutool.version>5.3.9</hutool.version>
     </properties>
 
     <dependencies>
@@ -43,6 +45,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
         </dependency>
 
         <!-- spring boot dependency -->
@@ -98,9 +105,9 @@
     <modules>
         <module>api</module>
         <module>registry</module>
-    <module>order</module>
-    <module>entity</module>
-  </modules>
+        <module>order</module>
+        <module>entity</module>
+    </modules>
 
     <build>
         <plugins>
