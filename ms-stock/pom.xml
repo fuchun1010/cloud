@@ -10,7 +10,7 @@
     </parent>
     <artifactId>registry</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>registry</name>
+    <name>ms-stock</name>
     <url>http://maven.apache.org</url>
 
 </project>

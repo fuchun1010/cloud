@@ -7,8 +7,11 @@ api.iml
 registry/target/
 registry.iml
 
-order/target/
-order.iml
+ms-stock/target/
+ms-stock/ms-stock.iml
+
+ms-order/target/
+ms-order/ms-order.iml
 
 entity/target
 entity/entity.iml

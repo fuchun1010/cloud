@@ -10,14 +10,13 @@ logging:
 
 spring:
   application:
-    name: ms-order-service
+    name: ms-order
   cloud:
     nacos:
       discovery:
         ip: 127.0.0.1
         server-addr: 127.0.0.1:8848
         namespace: d0790988-4f03-460c-9866-37308e7fbeda
-        group: test
 
 management:
   endpoints:
