@@ -8,5 +8,11 @@ import lombok.NonNull;
  */
 public interface OrderCreation {
 
+  /**
+   * create order and return order number
+   *
+   * @param order
+   * @return
+   */
   String createOrder(@NonNull final Order order);
 }
