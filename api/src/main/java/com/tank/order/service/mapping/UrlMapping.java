@@ -3,7 +3,12 @@ package com.tank.order.service.mapping;
 /**
  * @author tank198435163.com
  */
-public interface UrlMapping {
+public class UrlMapping {
 
-  String PREFIX_URL = "/order/v1";
+  public static final String PREFIX_URL = "/order/v1";
+
+
+  private UrlMapping() {
+
+  }
 }
