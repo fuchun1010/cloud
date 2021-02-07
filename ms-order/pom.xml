@@ -8,7 +8,7 @@
         <artifactId>cloud</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>order</artifactId>
+    <artifactId>ms-order</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>ms-order</name>
     <url>http://maven.apache.org</url>

@@ -1,0 +1,29 @@
+server:
+  port: 15081
+  compression:
+    enabled: true
+  shutdown: graceful
+
+logging:
+  level:
+    org.springframework.web: trace
+
+spring:
+  application:
+    name: ms-stock
+  cloud:
+    nacos:
+      discovery:
+        ip: 127.0.0.1
+        server-addr: 127.0.0.1:8848
+        namespace: stock-dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+

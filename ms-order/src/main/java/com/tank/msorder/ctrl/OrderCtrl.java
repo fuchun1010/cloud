@@ -1,8 +1,8 @@
-package com.tank.order.ctrl;
+package com.tank.msorder.ctrl;
 
 import com.tank.entity.order.req.OrderCreationReq;
 import com.tank.entity.order.res.OrderCreationRes;
-import com.tank.order.service.order.OrderCreation;
+import com.tank.msorder.service.order.OrderCreation;
 import lombok.NonNull;
 import lombok.val;
 import org.springframework.http.ResponseEntity;
@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
-import static com.tank.order.service.mapping.UrlMapping.PREFIX_URL;
+import static com.tank.msorder.service.mapping.UrlMapping.ORDER_PREFIX_URL;
 
 /**
  * @author tank198435163.com
  */
 @CrossOrigin("*")
 @RestController
-@RequestMapping(PREFIX_URL)
+@RequestMapping(ORDER_PREFIX_URL)
 public class OrderCtrl {
 
   @PostMapping("/{orgCode}/order/created")

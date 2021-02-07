@@ -1,4 +1,4 @@
-package com.tank.order;
+package com.tank.msorder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.tank.order.service.order;
+package com.tank.msorder.service.order;
 
 import com.tank.entity.order.Order;
 import lombok.NonNull;
