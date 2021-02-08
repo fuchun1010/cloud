@@ -15,3 +15,6 @@ ms-order/ms-order.iml
 
 entity/target
 entity/entity.iml
+
+order-service/target
+order-service/order-service.iml

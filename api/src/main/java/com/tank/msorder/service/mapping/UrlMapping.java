@@ -9,6 +9,8 @@ public class UrlMapping {
 
   public static final String STOCK_PREFIX_URL = "/stock/v1";
 
+  public static final String ORDER_SERVICE_PREFIX_URL = "/order-service/v1";
+
 
   private UrlMapping() {
 

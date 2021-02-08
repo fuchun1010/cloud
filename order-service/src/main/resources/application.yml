@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        ip: localhost
+        server-addr: localhost:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+server:
+  port: 14080
+  shutdown: graceful
+  compression:
+    enabled: true
+
+logging:
+  level:
+    org.springframework.web: trace
+feign:
+  httpclient:
+    connection-timeout: 2000
+  compression:
+    request:
+      enabled: true
+  client:
+    config:
+      default:
+        connect-timeout: 5000
+        read-timeout: 2000
+
+
+
+
