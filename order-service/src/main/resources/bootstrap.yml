@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        ip: localhost
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        prefix: ${spring.application.name}
+
+
+
+
